@@ -12,7 +12,7 @@ export const skills =[
   },
   {
         id:2,
-        icon:"../img/html.png",
+        icon:"../img/stm32.png",
         alt: "STM32",
         title:"STM32",
         level:"Beginner to Intermediate",
