@@ -20,7 +20,7 @@ export const skills =[
   },
   {
         id:3,
-        icon:"../img/EazyEDA.png",
+        icon:"../img/eazyeda.png",
         alt: "EazyEDA",
         title:"EazyEDA",
         level:"Beginner to Intermediate",
