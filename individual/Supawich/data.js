@@ -40,7 +40,7 @@ export const testimonials = [
         alt: "Python",
         title: "Python",
         level: "Beginner",
-        description: "Skilled in basic Python logic, OpenCV, and simple camera model implementation."
+        description: "basic Python logic, OpenCV, and simple camera model implementation."
     }
 ];
 

@@ -18,12 +18,12 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+      </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -32,6 +32,8 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             More Info
           </a>
+          
+          
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="individual\Jatupat\Jatupat.html">Jatupat</a>
             <a class="dropdown-item" href="individual\Supawich\Supawich.html">Supawich</a>
@@ -41,10 +43,21 @@
           </div>
         </li>
       </ul>
-    </div>
+    
   </nav>
 <!-- main -->
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
+<div class="d-flex flex-column justify-content-center align-items-center py-3 mb-4" style="height: 100vh;">
+  <h2 class="mt-5 text-center">ZombieTrivia</h2>
+  <p class="mt-4 text-center">ทดสอบความรู้เกี่ยวกับซอมบี้ในเกมที่สนุกและท้าทาย! ท้าทายตัวเองหรือแข่งกับเพื่อนๆ เพื่อดูว่าใครรู้มากที่สุด!</p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="80%" height="315" src="https://www.youtube.com/embed/u-12hdppv8w?si=wxvQEyO8NTnqTmLg&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <a href="path/to/ZombieTrivia.apk" download>
+    <button type="button" class="btn btn-outline-success mt-4">Download APP</button>
+  </a>
+  </div>
+   
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
         <header class="fs-4 header lora">Team</header>
